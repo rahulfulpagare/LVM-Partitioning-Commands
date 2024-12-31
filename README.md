@@ -318,9 +318,6 @@ To remove a physical volume:
 pvremove /dev/sdX1
 ```
 
-This guide provides a detailed list of commands for managing partitions, LVM (Logical Volume Manager), and mounting logical volumes persistently using `/etc/fstab`.
----
-
 ### Open `fdisk` to Create a New Partition
 
 ```bash
@@ -414,4 +411,6 @@ mount -a
 
 ---
 
-These commands are designed to help with disk partitioning and LVM management, including resizing, formatting, and removing volumes.
+This guide provides a detailed list of commands for managing partitions, LVM (Logical Volume Manager), and persistently mounting logical volumes using /etc/fstab. These commands are intended to assist with disk partitioning and LVM management tasks, including resizing, formatting, and removing volumes
+---
+
